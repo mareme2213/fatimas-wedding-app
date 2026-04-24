@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Fatima's wedding</h1>
+        <input type="text" id="taskInput" placeholder="Ajouter une tâche(robe, salle...)">
+        <button onclick="addTask()">Ajouter</button>
+        <Ul id="taskList"></Ul>
+        <h2>Liste invités</h2>
+        <input type="text" id="guestInput" placeholder="Nom de l'invité"></input>
+        <button onclick="addGuest()"> Ajouter</button>
+        <ul id="guestList"></ul>
+        <h2> Budget du mariage</h2>
+
+<input type="text" id="expenseName" placeholder="Ex: Robe">
+<input type="number" id="expenseAmount" placeholder="Montant">
+
+<button onclick="addExpense()">Ajouter</button>
+
+<ul id="expenseList"></ul>
+
+<h3>Total : <span id="totalAmount">0</span> FCFA</h3>
+<h2> Planning du mariage</h2>
+
+<input type="date" id="eventDate">
+<input type="text" id="eventText" placeholder="Ex: Essayage robe">
+
+<button onclick="addEvent()">Ajouter</button>
+
+<ul id="eventList"></ul>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
