@@ -1,3 +1,4 @@
+npm install firebase
 function addTask() {
     let input = document.getElementById("taskInput");
     let taskText = input.value;
